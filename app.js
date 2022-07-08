@@ -25,6 +25,8 @@ function validateZip() {
     zip.classList.remove("is-invalid");
   }
 }
+
+
 function validateEmail() {
   const email = document.getElementById("email");
   const re = /^([A-za-z0-9_\-\.]+)@([A-za-z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
@@ -34,6 +36,9 @@ function validateEmail() {
     email.classList.remove("is-invalid");
   }
 }
+
+
+
 function validatePhone() {
   const phone = document.getElementById("phone");
   const re = /^\(?\d{{3}\)?[-. ]?\d{3}[-. ]?\d{4}$/;
